@@ -6,6 +6,12 @@
     <title>Master-Chef Geek: Blog</title>
 </head>
 <body>
+    <!--
+        article: representa contenido independiente, como una publicación.
+        section: agrupa contenido relacionado dentro de una sección temática.
+        div: agrupa contenido sin aportar significado semántico propio.
+        span: identifica una parte del texto en línea, por ejemplo, un precio.
+    -->
     <header>
       <h1>Blog del Master-Chef Geek</h1>
       <nav>
@@ -18,10 +24,7 @@
       </nav>
     </header>
     <article>
-        <!--Header: agurpa el titulo y la informacion
-            pubdate: identifica la fecha como la fecha de publicacion del articulo
-            time: marca semanticamente la fecha
-            datetime: expresa la fecha como formato legible para maquinas-->
+        <!--pubdate: identifica la fecha como la fecha de publicacion del articulo-->
         <header>
             <h2>Menú de Otoño</h2>
             <p>
@@ -29,9 +32,11 @@
               <time datetime="2019-08-11" pubdate> 11 de agosto de 2019</time>
             </p>
         </header>
-        <p>Nuestro chef ha estado ocupado armando el menú completo para los
-meses de invierno. Prepárense para probar estos aperitivos y
-platillos principales para estos largos meses.</p>
+        <p>
+          Nuestro chef ha estado ocupado armando el menú completo para los
+          meses de invierno. Prepárense para probar estos aperitivos y
+          platillos principales para estos largos meses.</p>
+          
         <section id="aperitivos">
           <h3>Aperitivos</h3>
           <dl>
